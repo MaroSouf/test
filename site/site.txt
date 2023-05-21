@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon Site de Jeux</title>
+  <style>
+    /* Styles CSS pour la mise en page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .game {
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon Site de Jeux</h1>
+  </header>
+  <main>
+    <div class="game">
+      <h2>Jeu 1</h2>
+      <button id="game1">Jouer</button>
+    </div>
+    <div class="game">
+      <h2>Jeu 2</h2>
+      <button id="game2">Jouer</button>
+    </div>
+  </main>
+
+  <script>
+    // Script JavaScript pour les fonctionnalités du jeu
+
+    // Ajoutez ici votre propre code pour chaque jeu
+
+    // Exemple de gestionnaire d'événement pour le jeu 1
+    document.getElementById("game1").addEventListener("click", function() {
+      alert("Jeu 1 lancé !");
+    });
+
+    // Exemple de gestionnaire d'événement pour le jeu 2
+    document.getElementById("game2").addEventListener("click", function() {
+      alert("Jeu 2 lancé !");
+    });
+  </script>
+</body>
+</html>
